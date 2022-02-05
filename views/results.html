@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>Weather in {{ LOCATION }}</title>
+</head>
+
+<body>
+    <h1>Weather in {{ LOCATION }}</h1>
+    <a href="../">Home</a>
+
+
+    <div class="card">
+        <h2>{{ WEATHER_MAIN }}</h2>
+        <p>{{ WEATHER_DESC }}</p>
+
+        <img src="{{ IMG_LINK }}" alt="{{ WEATHER_MAIN }}">
+
+        <h2>{{ TEMP }}°C</h2>
+    </div>
+
+</body>
+
+</html>

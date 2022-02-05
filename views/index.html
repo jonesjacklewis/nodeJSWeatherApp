@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="https://use.fontawesome.com/17e06de630.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Weather App</h1>
+
+
+
+        <form action="/results" method="post">
+
+            <div class="search">
+                <input type="text" name="townCity" id="townCity" class="townCity" placeholder="Town/City Name">
+
+                <button type="submit" id="search" class="searchButton"> <i class="fa fa-search"></i></button>
+            </div>
+
+
+
+        </form>
+    </div>
+
+
+</body>
+
+<script>
+
+    // Get the input field
+    var input = document.getElementById("townCity");
+
+    // Execute a function when the user releases a key on the keyboard
+    input.addEventListener("keyup", function (event) {
+        // Number 13 is the "Enter" key on the keyboard
+        if (event.keyCode === 13) {
+            // Cancel the default action, if needed
+            event.preventDefault();
+            // Trigger the button element with a click
+            document.getElementById("search").click();
+        }
+    });
+
+
+</script>
+
+</html>

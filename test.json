@@ -1,0 +1,43 @@
+{
+    "coord": {
+        "lon": -75.8749,
+        "lat": 40.1254
+    },
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 282.33,
+        "feels_like": 282.04,
+        "temp_min": 280.21,
+        "temp_max": 284.22,
+        "pressure": 1011,
+        "humidity": 57
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 1.34,
+        "deg": 360
+    },
+    "clouds": {
+        "all": 1
+    },
+    "dt": 1636301186,
+    "sys": {
+        "type": 2,
+        "id": 2034108,
+        "country": "US",
+        "sunrise": 1636285199,
+        "sunset": 1636322066
+    },
+    "timezone": -18000,
+    "id": 5184079,
+    "name": "Chester",
+    "cod": 200
+}
